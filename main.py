@@ -90,13 +90,11 @@ else:
   P3 = 	0.0
   print("Grade point for course 3 is: 0.0")
 
-c1=float(C1)
-c2=float(C2)
-c3=float(C3)
+c1 = float(C1)
+c2 = float(C2)
+c3 = float(C3)
 
-GPA=0.0
+GPA = 0.0
 GPA += P1*c1+P2*c2+P3*c3
-print(GPA)
 GPA /=(c1+c2+c3)
-
 print("Your GPA is: " + str(GPA))
